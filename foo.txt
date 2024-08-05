@@ -1,0 +1,11 @@
+{
+  "name": "Max Mustermann",
+  "age": 23,
+  "email": "max.mustermann@example.com",
+  "address": {
+    "street": "Hauptstraße 123",
+    "city": "Berlin",
+    "postalCode": "10115"
+  },
+  "hobbies": ["Programmiervideos machen", "Chillen", "Fett einen durchziehen"]
+}
