@@ -1,10 +1,12 @@
-const file = Bun.file("./foo.txt");
-const json = await file.json() 
+const apikey = Bun.env.API_KEY
 
-console.log(json)
+const db_pw = process.env.DB_PASSWORD
 
-console.log(Bun.env.API_KEY)
+console.log(apikey)
+
+console.log(db_pw)
 
 
 
-export { };
+
+
